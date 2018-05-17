@@ -14,6 +14,7 @@
 		DE1CF0D820ACEE7000B57895 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1CF0D620ACEE7000B57895 /* LaunchScreen.storyboard */; };
 		DE1CF0E020ACF49900B57895 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1CF0DF20ACF49900B57895 /* QuestionViewController.swift */; };
 		DE1CF0E220ACF4B100B57895 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1CF0E120ACF4B100B57895 /* ResultsViewController.swift */; };
+		DE1CF0E420ACFCE100B57895 /* QuestionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1CF0E320ACFCE100B57895 /* QuestionData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		DE1CF0D920ACEE7000B57895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE1CF0DF20ACF49900B57895 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		DE1CF0E120ACF4B100B57895 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		DE1CF0E320ACFCE100B57895 /* QuestionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				DE1CF0CD20ACEE6E00B57895 /* AppDelegate.swift */,
 				DE1CF0CF20ACEE6E00B57895 /* IntroductionViewController.swift */,
+				DE1CF0E320ACFCE100B57895 /* QuestionData.swift */,
 				DE1CF0D120ACEE6E00B57895 /* Main.storyboard */,
 				DE1CF0DF20ACF49900B57895 /* QuestionViewController.swift */,
 				DE1CF0E120ACF4B100B57895 /* ResultsViewController.swift */,
@@ -143,6 +146,7 @@
 			files = (
 				DE1CF0D020ACEE6E00B57895 /* IntroductionViewController.swift in Sources */,
 				DE1CF0CE20ACEE6E00B57895 /* AppDelegate.swift in Sources */,
+				DE1CF0E420ACFCE100B57895 /* QuestionData.swift in Sources */,
 				DE1CF0E020ACF49900B57895 /* QuestionViewController.swift in Sources */,
 				DE1CF0E220ACF4B100B57895 /* ResultsViewController.swift in Sources */,
 			);
