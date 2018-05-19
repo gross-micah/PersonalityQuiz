@@ -40,29 +40,3 @@ enum AnimalType: Character {
 	}
 }
 
-var questions: [Question] = [
-	Question(text: "Which food do you like the most?",
-			 type: .single,
-			 answers:[
-				Answer(text: "Dumplings", type: .dog),
-				Answer(text: "Seafood", type: .cat),
-				Answer(text: "Vegetarian", type: .rabbit),
-				Answer(text: "Tofu", type: .turtle)
-					]),
-	Question(text: "Which activities do you like to do?",
-			 type: .multiple,
-			 answers: [
-				Answer(text: "Sleeping", type: .cat),
-				Answer(text: "Swimming", type: .turtle),
-				Answer(text: "Hopping", type: .rabbit),
-				Answer(text: "Eating", type: .dog)
-					]),
-	Question(text: "How much do you enjoy car rides?",
-			 type: .ranged,
-			 answers: [
-				Answer(text: "Don't you dare put me in one", type: .cat),
-				Answer(text: "I get anxious, but remain optimistic", type: .rabbit),
-				Answer(text: "They don't bother me at all", type: .turtle),
-				Answer(text: "Oh boy, oh boy, oh boy!", type: .dog)
-					])
-]
